@@ -237,6 +237,7 @@
             this.btnInventario.TabIndex = 18;
             this.btnInventario.Text = "      Inventario";
             this.btnInventario.UseVisualStyleBackColor = false;
+            this.btnInventario.Click += new System.EventHandler(this.btnInventario_Click);
             // 
             // btnCliente
             // 
@@ -289,6 +290,7 @@
             this.btnReporte.TabIndex = 15;
             this.btnReporte.Text = "    Reportes";
             this.btnReporte.UseVisualStyleBackColor = false;
+            this.btnReporte.Click += new System.EventHandler(this.btnReporte_Click);
             // 
             // btnUsuario
             // 

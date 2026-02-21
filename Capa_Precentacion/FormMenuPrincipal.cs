@@ -204,6 +204,20 @@ namespace Capa_Precentacion
             AbrirFormEnPanel(fm);
         }
 
+        private void btnInventario_Click(object sender, EventArgs e)
+        {
+            FormInventario fm = new FormInventario();
+            fm.FormClosed += new FormClosedEventHandler(MostrarFormLogoAlCerrarForms);
+            AbrirFormEnPanel(fm);
+        }
+
+        private void btnReporte_Click(object sender, EventArgs e)
+        {
+            FormReportes fm = new FormReportes();
+            fm.FormClosed += new FormClosedEventHandler(MostrarFormLogoAlCerrarForms);
+            AbrirFormEnPanel(fm);
+        }
+
         private void btnCliente_Click(object sender, EventArgs e)
         {
             FormListaClientes fm = new FormListaClientes();

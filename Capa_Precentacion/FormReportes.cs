@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Capa_Precentacion
 {
-    public partial class FormInventario : Form
+    public partial class FormReportes : Form
     {
-        public FormInventario()
+        public FormReportes()
         {
             InitializeComponent();
         }
@@ -20,6 +20,16 @@ namespace Capa_Precentacion
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormReportes_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
